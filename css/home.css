@@ -1,0 +1,60 @@
+#about{
+    padding-bottom: 100px;
+}
+.about-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.about-table__thead {
+}
+.thead__tr {
+    padding: 20px 0 20px;
+    height: 66px;
+}
+.thead__tr__td {
+    text-align: left;
+    color: #878787;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 500;
+}
+.thead__tr__td__owner{
+    padding-left: 27px;
+    text-align: left;
+    color: #878787;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 500;
+}
+.tbody__tr {
+    width: 100%;
+    height: 66px;
+}
+.tbody__tr__gray {
+    height: 66px;
+    background-color: #EEF2F5;
+}
+.tbody__tr__td__card {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 15.38px 0 16.01px 19.45px;
+}
+.tbody__tr__td__text {
+    color: var(--premyum-color);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+}
+.tbody__tr__td__text-profits {
+    color: var(--profits-color);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+}
+.tbody__tr__td__text-Losses {
+    color:var(--losses-color);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+}

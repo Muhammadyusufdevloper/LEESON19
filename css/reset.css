@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Mulish:wght@400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Mulish', sans-serif;
+}
+button{
+    cursor: pointer;
+}
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.df{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* HEADER  */
+#header{
+    padding-top: 31px;
+    padding-bottom: 53px;
+}
+.header-btn__btn {
+    background-color: transparent;
+    border: none;
+}
+.header-box {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.header-box__text {
+    color: var(--grayscale-black);
+    text-align: right;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+/* HERO */
+#hero{
+    padding-bottom: 64px;
+}
+.hero-wrapper__title {
+    color: #000;
+    font-family: Lato;
+    font-size: 39px;
+    font-weight: 400;
+}
+.hero-wrapper__btns {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.hero-wrapper__btns__btn-vector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 71.094px;
+    height: 35.501px;
+    border: none;
+    border-radius: 5px;
+    background-color: #EEF2F5;
+}
+.hero-wrapper__btns__btn-add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 71.094px;
+    height: 35.501px;
+    border-radius: 5px;
+    border: none;
+    background: #10CD45;
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    transition: all 0.5s ease;
+}
+.hero-wrapper__btns__btn-add:hover {
+    background-color:#EEF2F5;
+    color: black;
+}
+.cen{
+    display: flex;
+    align-items: center;
+}
